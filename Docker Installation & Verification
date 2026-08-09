@@ -1,0 +1,29 @@
+# Task 01 - Docker Installation & Verification
+
+## Objective
+Install Docker and verify that Docker Engine is working.
+
+## Important Commands
+
+docker --version
+    → Displays Docker CLI version.
+
+docker info
+    → Displays Docker Engine information.
+
+docker run hello-world
+    → Downloads and runs the hello-world container.
+
+docker images
+    → Lists Docker images available locally.
+
+docker ps
+    → Lists running containers.
+
+docker ps -a
+    → Lists all containers including stopped containers.
+
+## Key Learning
+
+Docker consists of a Docker CLI and Docker Engine.
+The CLI communicates with the Docker Engine to create and manage containers.
